@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style/bootstrap.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <h1>User Form</h1>
+        <form>
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+            <div class="invalid-feedback">
+              Name must be between 2 and 10 characters
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Zipcode</label>
+            <input type="text" class="form-control" id="zip" placeholder="Name">
+            <div class="invalid-feedback">
+              Enter a valid zipcode
+            </div>
+          </div>
+          <div class="form-group">
+            <label>E-mail</label>
+            <input type="text" class="form-control" id="email" placeholder="Name">
+            <div class="invalid-feedback">
+              Enter a valid e-mail
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="text" class="form-control" id="phone" placeholder="Name">
+            <div class="invalid-feedback">
+              Enter a valid phone
+            </div>
+          </div>
+          <input type='submit' value='Submit' class='btn btn-primary btn-block'>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="regex.js"></script>
+</body>
+</html>
