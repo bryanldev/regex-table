@@ -2,10 +2,11 @@
 let re;
 ```
 
-### Literal Characters
+### Modifiers
 ```javascript
-re = /hello/;
-re = /helo/i;
+re = /helo/g;       // Perform a global match (find all matches rather than stopping after the first match)
+re = /helo/i;       // Perform case-insensitive matching
+re = /helo/m;       // Perform multiline matching
 ```
 
 ### Metacharacter Symbols
